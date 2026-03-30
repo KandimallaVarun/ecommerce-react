@@ -1,33 +1,7 @@
 const products = [
+  
   {
     id: 1,
-    name: "Wireless Headphones",
-    price: 99.99,
-    image:
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
-    description:
-      "Premium wireless headphones with noise cancellation and 30-hour battery life. Perfect for music lovers and professionals.",
-  },
-  {
-    id: 2,
-    name: "Smart Watch",
-    price: 249.99,
-    image:
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop",
-    description:
-      "Feature-rich smartwatch with fitness tracking, heart rate monitor, and smartphone notifications. Water-resistant design.",
-  },
-  {
-    id: 3,
-    name: "Laptop Stand",
-    price: 49.99,
-    image:
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500&h=500&fit=crop",
-    description:
-      "Ergonomic aluminum laptop stand that improves posture and workspace organization. Adjustable height and angle.",
-  },
-  {
-    id: 4,
     name: "Mechanical Keyboard",
     price: 129.99,
     image:
@@ -36,7 +10,7 @@ const products = [
       "RGB backlit mechanical keyboard with Cherry MX switches. Perfect for gaming and typing enthusiasts.",
   },
   {
-    id: 5,
+    id: 2,
     name: "USB-C Hub",
     price: 39.99,
     image:
@@ -45,13 +19,40 @@ const products = [
       "Multi-port USB-C hub with HDMI, USB 3.0, and SD card reader. Expand your laptop connectivity.",
   },
   {
-    id: 6,
+    id: 3,
     name: "Wireless Mouse",
     price: 29.99,
     image:
       "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500&h=500&fit=crop",
     description:
       "Ergonomic wireless mouse with precision tracking and long battery life. Comfortable for extended use.",
+  },
+  {
+    id: 4,
+    name: "Wireless Headphones",
+    price: 99.99,
+    image:
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
+    description:
+      "Premium wireless headphones with noise cancellation and 30-hour battery life. Perfect for music lovers and professionals.",
+  },
+  {
+    id: 5,
+    name: "Smart Watch",
+    price: 249.99,
+    image:
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop",
+    description:
+      "Feature-rich smartwatch with fitness tracking, heart rate monitor, and smartphone notifications. Water-resistant design.",
+  },
+  {
+    id: 6,
+    name: "Laptop Stand",
+    price: 49.99,
+    image:
+      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500&h=500&fit=crop",
+    description:
+      "Ergonomic aluminum laptop stand that improves posture and workspace organization. Adjustable height and angle.",
   },
   {
     id: 7,
